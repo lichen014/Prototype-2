@@ -758,6 +758,7 @@ MonoBehaviour:
   horizontalInput: 0
   speed: 10
   xRange: 10
+  projectilePrefab: {fileID: 1674922729}
 --- !u!1001 &1234857639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -898,6 +899,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590138454}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1674922729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5675690449997617059, guid: 272a5af02904143b1b875329e99505af, type: 3}
+  m_PrefabInstance: {fileID: 5675690450497445194}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5675690450497445194
 PrefabInstance:
   m_ObjectHideFlags: 0
