@@ -578,7 +578,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 25, z: 7.5}
+  m_LocalPosition: {x: -0.91, y: 26.54, z: 8.56}
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -823,9 +823,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
-  - {fileID: 1151369319}
-  - {fileID: 1875114201}
-  - {fileID: 704079155}
+  - {fileID: 8235041569494669314, guid: 4b7548ba00de94517b57d94c10d91c9f, type: 3}
+  - {fileID: 7638936703410323349, guid: cfb9d30207608425599bbe70f105b899, type: 3}
+  - {fileID: 3855097247800599533, guid: 73dd93240559140dbb440bd3ba3064c9, type: 3}
 --- !u!4 &1270558126
 Transform:
   m_ObjectHideFlags: 0
@@ -941,6 +941,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a55e015728ac1444cb9e3186fee63291, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1875114206
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875114201}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2066200900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -996,7 +1009,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Fox_02
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4960830570994956814, guid: cfb9d30207608425599bbe70f105b899, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cfb9d30207608425599bbe70f105b899, type: 3}
 --- !u!1001 &5675690450497445194
 PrefabInstance:
